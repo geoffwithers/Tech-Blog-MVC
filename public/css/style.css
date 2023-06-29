@@ -1,0 +1,68 @@
+header, .project:not(:last-child) {
+  border-bottom: 1px solid #ccc;
+}
+
+
+#farm-main {
+  background: rgb(255, 255, 255, 0.6);
+  padding: 1%;
+  margin-bottom: 2%;
+}
+
+#blog-pic {
+  background-color: rgb(139, 187, 170);
+  border-radius: 25px;
+  background-size: 100%;
+  background-position: center center fixed;
+  padding-bottom: 20%;
+}
+
+.text-center {
+  padding-bottom: 25%;
+}
+
+#project-cow {
+  background-image: url(../images/cow1.jpg);
+  background-size: 160%;
+  padding-top: .5%;
+  padding-bottom: 22%;
+  background-repeat: no-repeat;
+  color: rgb(255, 255, 255);
+}
+
+#moo {
+  padding-left: 5%;
+  padding-right: 5%;
+  margin: 20px;
+}
+
+.no-button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  color: #1b89bc;
+  text-decoration: none;
+  font-size: 100%;
+}
+
+.no-button:hover {
+  color: #065b83;
+  text-decoration: underline;
+}
+
+#gotMilkText {
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+}
+
+#headerBlack {
+  background-color: #231709;
+
+}
+
+#logout, #login, #profile {
+  color: white;
+}
+
+

@@ -1,0 +1,15 @@
+<h2>Previous Fitness Data</h2>
+<table>
+  <tr>
+    <th>Date</th>
+    <th>Workout</th>
+    <th>Duration</th>
+  </tr>
+  {{#each data}}
+  <tr>
+    <td>{{this.date}}</td>
+    <td>{{this.workout}}</td>
+    <td>{{this.duration}}</td>
+  </tr>
+  {{/each}}
+</table>

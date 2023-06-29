@@ -1,0 +1,11 @@
+
+    <h2>Previous Fitness Data</h2>
+    <ul>
+        {{#each data}}
+        <li>
+            <p>Date: {{this.date}}</p>
+            <p>Workout: {{this.workout}}</p>
+            <p>Duration: {{this.duration}}</p>
+        </li>
+        {{/each}}
+    </ul>
